@@ -1,0 +1,113 @@
+header{
+	width: 100%;
+	background: #8A2BE2;
+	padding: 30px 40px;
+	
+}
+.logo{
+	width: 10%;
+	display: inline-block;
+}
+h1{
+	display: inline-block;
+	width: 30%
+	top:110px;
+	text-align: right;
+	font-style: italic;
+	font-size: 110px;
+	color: purple;
+	margin: 0 220px;
+	padding: 0 0;
+}
+nav{
+	padding: 10px 0;
+	margin: 0 250px;
+	object-position: top;
+	top:250px;
+	
+}
+nav li{
+	display: inline;
+	width: 20%;
+	margin: 0 0 50px;
+	padding: 0 20px;
+}
+nav a{
+	text-transform: uppercase;
+	color: #4B0082;
+	font-weight: bold;
+	text-decoration: none;
+}
+nav a:hover{
+	color:rgb(12, 3, 3);
+	text-decoration: underline;
+}
+main{
+	width: 1300px;
+	padding: 20px 20px;
+	margin: 20px 20px;
+	line-height: 5;
+}
+.propaganda{
+	margin: 0 20px;
+	color: rgb(32, 1, 54);
+	font-size: 40px;
+	text-align: center;	
+}	
+.slogan{
+	top: 500px;
+	font-style: bold;
+	font-size: 50px;
+	text-align: center;
+}
+footer{
+	width: 100%;
+	text-align: center;
+	background-color: #8A2BE2;
+	padding: 40px 0;
+
+}
+.copyright{
+	color: black;
+	margin: 20px 0;
+	font-size: 12px;
+}
+.products li{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	margin: 5px 10px;
+	vertical-align: top;
+	box-sizing: border-box;
+	border: 2px solid rgb(21, 0, 36);
+	border-radius: 10px;
+}
+.note{
+	width: 50%;
+}
+.cel{
+	width: 44%;
+}
+.rel{
+	width: 25%;
+}
+.mesa{
+	width: 17%;
+}
+.cama{
+	width: 25%;
+}
+.cerv{
+	width: 22%;
+}
+.vin{
+	width: 22%;
+}
+.perf{
+	width: 30%;
+}
+.fone{
+	width: 30%;
+}
+
+	
