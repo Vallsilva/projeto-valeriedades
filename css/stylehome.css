@@ -75,8 +75,9 @@ footer{
 .products li{
 	display: inline-block;
 	text-align: center;
-	width: 30%;
+	width: 20%;
 	margin: 5px 10px;
+	padding: 0 0;
 	vertical-align: top;
 	box-sizing: border-box;
 	border: 2px solid rgb(21, 0, 36);
@@ -92,7 +93,7 @@ footer{
 	width: 25%;
 }
 .mesa{
-	width: 17%;
+	width: 28%;
 }
 .cama{
 	width: 25%;
