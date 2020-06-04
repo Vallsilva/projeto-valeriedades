@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Cadastro</title>
+		<link rel="stylesheet" href="../css/reset.css">
+		<link rel="stylesheet" href="../css/stylehome.css">
+	
+	</head>
+
+	<body>
+		<header>
+			<div class="menu">
+				<img src="../imagens/logo.png" class="logo">
+				<h1><strong>Valériedades</strong></h1>
+				<nav>
+					<ul>
+						<li><a href="login.html">Login</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="carrinho.html">Carrinho de Compras</a></li>
+						<li><a href="cadastro.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main class="cadastro">
+            <form>
+                <label for="nomecompleto">Nome Completo</label>
+                <input type="text" id="nomecompleto">
+                <label for="cpf">CPF</label>
+                <input type="number" id="cpf">
+                <label for="endereco">Endereço</label>
+                <input type="text" id="endereco">
+                <label for="contato">Contato</label>
+                <input type="number" id="contato">
+                <label for="email">E-mail</label>
+                <input type="text" id="email">
+                <div>
+                    <p>Como ficou sabendo?</p>
+                    <label for="radio-email">E-mail</label>
+                    <input type="radio" name="canal" value="email" id="radio-email">
+                    <label for="facebook">Facebook</label>
+                    <input type="radio" name="canal" value="facebook" id="facebook">
+                    <label for="google">Google</label>
+                    <input type="radio" name="canal" value="google" id="google">
+                </div>
+                <label><input type="checkbox">Declaro que li e concordo com os termos de uso</label>
+                <input type="submit" value="Registrar Cadastro">
+            </form>
+		</main>
+		<footer>
+			<p class="copyright">&copy; Copyright Valeriedades</p>
+		</footer>
+	</body>
+</html>
