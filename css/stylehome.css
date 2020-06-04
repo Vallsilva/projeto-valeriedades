@@ -118,16 +118,37 @@ footer{
 form{
 	margin: 40px 0;
 }
-form label{
+form label, form legend{
 	display: block;
 	font-size: 20px;
 	margin: 0 0 10px;
 }
-form input{
+.input-padrao{
 	display: block;
 	margin: 0 0 20px;
 	padding: 10px 25px;
 	width: 50%;
 }
+.checkbox{
+	margin: 20px 0;
+}
+.enviar{
+	width: 40%;
+	padding: 15px 0;
+	background: purple;
+	color: rgb(21, 0, 36);
+	font-size: 15px;
+	font-weight: bold;
+	border: none;
+	border-radius: 10px;
+	transition: 1s all;
+	cursor: pointer;
+}
+.enviar:hover{
+	background: rgb(49, 2, 61);
+	color:white;
+	transform: scale(1.2);
+}
+
 
 	

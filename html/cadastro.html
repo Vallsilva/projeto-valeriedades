@@ -26,27 +26,30 @@
 		<main class="cadastro">
             <form>
                 <label for="nomecompleto">Nome Completo</label>
-                <input type="text" id="nomecompleto">
+                <input type="text" id="nomecompleto" class="input-padrao" required>
                 <label for="cpf">CPF</label>
-                <input type="number" id="cpf">
+                <input type="number" id="cpf" class="input-padrao" required placeholder="000.000.000-00">
                 <label for="endereco">Endereço</label>
-                <input type="text" id="endereco">
+                <input type="text" id="endereco" class="input-padrao" required> 
                 <label for="contato">Contato</label>
-                <input type="number" id="contato">
+                <input type="tel" id="contato" class="input-padrao" required placeholder="(XX)XXXXXXXXX">
                 <label for="email">E-mail</label>
-                <input type="text" id="email">
-                <div>
-                    <p>Como ficou sabendo?</p>
-                    <label for="radio-email">E-mail</label>
-                    <input type="radio" name="canal" value="email" id="radio-email">
-                    <label for="facebook">Facebook</label>
-                    <input type="radio" name="canal" value="facebook" id="facebook">
-                    <label for="google">Google</label>
-                    <input type="radio" name="canal" value="google" id="google">
-                </div>
-                <label><input type="checkbox">Declaro que li e concordo com os termos de uso</label>
-                <input type="submit" value="Registrar Cadastro">
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+                <fieldset>
+                    <legend>Como ficou sabendo?</legend>
+                    <label for="radio-email"><input type="radio" name="canal" value="email" id="radio-email">E-mail</label>
+                    
+                    <label for="facebook"> <input type="radio" name="canal" value="facebook" id="facebook">Facebook</label>
+                   
+                    <label for="google"><input type="radio" name="canal" value="google" id="google">Google</label>
+                    
+                </fieldset>
+
+                <label class="checkbox"><input type="checkbox" checked>Declaro que li e concordo com os termos de uso</label>
+                
+                <input type="submit" value="Registrar Cadastro" class="enviar">
             </form>
+          
 		</main>
 		<footer>
 			<p class="copyright">&copy; Copyright Valeriedades</p>
